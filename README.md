@@ -2,6 +2,8 @@
 
 Test project by Johanny Angarita.
 
+Live version: https://labs.jangarita.com/softgames/
+
 ## Install
 
 > Run `npm install`
