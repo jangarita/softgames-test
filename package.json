@@ -1,0 +1,43 @@
+{
+  "name": "softgames-test",
+  "version": "1.0.0",
+  "author": "Johanny Angarita <joh@jangarita.com>",
+  "description": "SOFTGAMES Test - PixiJS, TypeScript, Webpack and NPM",
+  "main": "src/app/main.ts",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production --config webpack.prod.config.js",
+    "test": "npx eslint src/app/**"
+  },
+  "keywords": [
+    "SOFTGAMES",
+    "Canada",
+    "Test",
+    "PixiJS",
+    "TypeScript",
+    "Webpack",
+    "npm",
+    "Hire me"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "eslint": "^8.30.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@pixi/particle-emitter": "^5.0.8",
+    "gsap": "^3.11.4",
+    "pixi-stats": "^1.0.8",
+    "pixi.js": "^7.0.5"
+  }
+}

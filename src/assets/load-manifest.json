@@ -1,0 +1,88 @@
+{
+  "bundles": [
+    {
+      "name": "MainMenu",
+      "assets": [
+        {
+          "name": "bg",
+          "srcs": "assets/images/bg.png"
+        },
+        {
+          "name": "area",
+          "srcs": "assets/images/area.png"
+        }
+      ]
+    },
+    {
+      "name": "CardDeckDemo",
+      "assets": [
+        {
+          "name": "card",
+          "srcs": "assets/images/card.png"
+        },
+        {
+          "name": "back-button",
+          "srcs": "assets/images/back-button.png"
+        },
+        {
+          "name": "click-to-move",
+          "srcs": "assets/images/click-to-move.png"
+        }
+      ]
+    },
+    {
+      "name": "MixedTextDemo",
+      "assets": [
+        {
+          "name": "back-button",
+          "srcs": "assets/images/back-button.png"
+        },
+        {
+          "name": "img-1",
+          "srcs": "assets/images/img-1.png"
+        },
+        {
+          "name": "img-2",
+          "srcs": "assets/images/img-2.png"
+        },
+        {
+          "name": "img-3",
+          "srcs": "assets/images/img-3.png"
+        },
+        {
+          "name": "img-4",
+          "srcs": "assets/images/img-4.png"
+        },
+        {
+          "name": "img-5",
+          "srcs": "assets/images/img-5.png"
+        }
+      ]
+    },
+    {
+      "name": "FireDemo",
+      "assets": [
+        {
+          "name": "back-button",
+          "srcs": "assets/images/back-button.png"
+        },
+        {
+          "name": "pixi-js",
+          "srcs": "assets/images/pixi-js.png"
+        },
+        {
+          "name": "fire-emitter",
+          "srcs": "assets/particles/fire-emitter.json"
+        },
+        {
+          "name": "fire",
+          "srcs": "assets/particles/fire.png"
+        },
+        {
+          "name": "particle",
+          "srcs": "assets/particles/particle.png"
+        }
+      ]
+    }
+  ]
+}
